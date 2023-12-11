@@ -13,7 +13,7 @@ public class Employee {
 
     }
 
-    public Employee(String name, int pps, String gender, String employmentType, int age) {
+    public Employee(Array name, Array pps, String gender, String employmentType, int age) {
         this.name = name;
         this.pps = pps;
         this.gender = gender;
@@ -21,19 +21,19 @@ public class Employee {
         this.age = age;
     }
 
-    public String getName() {
+    public Array getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(Array name) {
         this.name = name;
     }
 
-    public int getPps() {
+    public Array getPps() {
         return pps;
     }
 
-    public void setPps(int pps) {
+    public void setPps(Array pps) {
         this.pps = pps;
     }
 
