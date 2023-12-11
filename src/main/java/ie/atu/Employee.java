@@ -57,11 +57,11 @@ public class Employee {
         if(pps.length()!=11) {
             setPps(pps);
             System.out.println(invalid);
-
         }
 
         System.out.println("Enter your employment type ");
         String employmentType = input.nextLine();
+
         if (employmentType == "Full-time" || employmentType == "Part-time" || employmentType == "Contract") {
             setEmploymentType(employmentType);
         } else {
